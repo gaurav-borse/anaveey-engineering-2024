@@ -35,6 +35,16 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
     </style>
+
+    <!-- EmailJs -->
+    <script src="js/sendEmail.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("pLP9kM8gG8p1zxyW5");
+        })();
+    </script>
 </head>
 
 <body id="bg">
@@ -374,6 +384,59 @@
                                         nickel-base alloy, Duplex- and Super Duplex steels, titanium und titanium
                                         alloys, rubber coatings, coatings</li>
                                 </ul>
+                            </div>
+                            <div class="mb-3 section-head clearfix">
+                                <h5 class="widget-title">Enquiry Now</h5>
+
+                                <div class="row" style="padding: 0 3rem 1rem 0;">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input id="name" type="text" class="form-control"
+                                                    placeholder="Your Name*" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input id="email" type="email" class="form-control"
+                                                    placeholder="Your Email Id*" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input id="phone" type="text" class="form-control" placeholder="Phone*"
+                                                    required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input id="subject" type="text" class="form-control"
+                                                    placeholder="Subject*" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <textarea id="message" rows="4" class="form-control"
+                                                    placeholder="Your Message*..." required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- G-Capcha -->
+                                    <div class="col-md-12">
+                                        <button id="submit-button" type="submit" onclick="validateAndSendMail()"
+                                            value="Submit" class="site-button">
+                                            <span>Submit</span> </button>
+                                    </div>
+                                </div>
+                                <div id="response-message" style="margin-top: 15px;"></div>
                             </div>
 
                         </div>

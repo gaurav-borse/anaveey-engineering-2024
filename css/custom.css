@@ -82,7 +82,7 @@
 .prod-detail-img-fixed {
     width: auto;
     height: 500px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 7px;
 }
 

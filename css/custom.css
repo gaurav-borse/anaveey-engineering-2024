@@ -90,3 +90,26 @@
     color: var(--color-primary) !important;
     font-weight: 600 !important;
 }
+
+.gallery-img-fix-width {
+    width: 500px !important;
+    height: 300px !important;
+    object-fit: cover !important;
+}
+
+.align-l-lg {
+    text-align: center;
+    /* display: block; */
+}
+
+@media screen and (min-width: 991px) {
+    .align-l-lg {
+        text-align: left;
+    }
+}
+
+.align-l-lg .tagline {
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+}

@@ -7449,6 +7449,12 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     width: 25%;
 }
 
+.widget_gallery.gallery-grid-4 li img {
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+}
+
 .gallery-grid-8 li {
     width: 12.5%;
 }

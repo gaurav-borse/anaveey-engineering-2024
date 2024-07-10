@@ -108,6 +108,12 @@
     }
 }
 
+@media screen and (min-width: 991px) {
+    .show-it {
+        display: none;
+    }
+}
+
 .align-l-lg .tagline {
     font-size: 17px;
     font-weight: 300;

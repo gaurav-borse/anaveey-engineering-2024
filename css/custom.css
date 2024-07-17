@@ -24,7 +24,7 @@
 }
 
 .service-media-bx .cust-padding {
-    padding: 30px 25px 20px 20px !important;
+    padding: 30px 25px 35px 27px !important;
     text-align: left !important;
 }
 
@@ -38,8 +38,12 @@
 }
 
 .cust-border-btm {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 0 50px;
     border-bottom: 5px solid var(--color-primary) !important;
+}
+
+.service-media-bx:after {
+    background-color: transparent !important;
 }
 
 .cust-sub-title {
@@ -118,4 +122,10 @@
     font-size: 17px;
     font-weight: 300;
     color: #ffffff;
+}
+
+.footer-bg {
+    background-image: url(../images/background/map-bg.png) !important;
+    background-size: contain !important;
+    z-index: 9999;
 }

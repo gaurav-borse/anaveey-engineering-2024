@@ -14,8 +14,8 @@ for (var i = 0; i < 12; i++) {
 
     gsap.set(b, {
         attr: { id: 'b' + i, class: 'photoBox pb-col' + column },
-        // backgroundImage: 'url(https://gaurav-borse.github.io/anaveey-engineering-portfolio-2024.github.io/images/Extras/about_slider/' + i + '.jpg)',
-        backgroundImage: 'url(../images/Extras/about_slider/' + i + '.jpg)',
+        backgroundImage: 'url(https://gaurav-borse.github.io/anaveey-engineering-portfolio-2024.github.io/images/Extras/about_slider/' + i + '.jpg)',
+        // backgroundImage: 'url(../images/Extras/about_slider/' + i + '.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         overflow: 'hidden',
